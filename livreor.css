@@ -1,0 +1,188 @@
+/* ---------------------------------------- HEADER GENERAL ---------------------------------------- */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #F3F1E9;
+    border-bottom: solid;
+    position: static;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    right: 0;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    padding: 15px;
+}
+
+li a {
+    color: #060D1B;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+li:hover {
+    background-color: #759B9C;
+}
+
+.header {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+    top: 50px;
+}
+
+.header__bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(#D49D32, #A36156);
+    transform: skewY(-6deg);
+    transform-origin: top left;
+    border-bottom: solid;
+}
+
+h1 {
+    margin: 0;
+    padding: 40px 0;
+    font: 80px 'Courgette';
+    text-align: center;
+    text-shadow: #000000 2px 2px, #000000 -2px 2px, #000000 -2px -2px, #000000 2px -2px;
+}
+
+header h1 {
+    position: relative;
+    color: white;
+}
+
+
+/* ---------------------------------------- FORMULAIRE GENERAL ---------------------------------------- */
+
+.forminscri {
+    margin: auto auto auto 33.5%;
+    align-self: center;
+    font-size: 150%;
+    text-align: center;
+    color: #F3F1E9;
+}
+
+.form__group {
+    position: relative;
+    width: 50%;
+    color: #F3F1E9;
+}
+
+.form__field {
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid;
+    outline: 0;
+    font-size: 1.3rem;
+    background: transparent;
+    color: #F3F1E9;
+}
+
+.form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+}
+
+.submit {
+    background-image: linear-gradient(#D49D32, #A36156);
+    border: none;
+    height: 50px;
+    width: 150px;
+    font-size: 90%;
+    font-family: 'Archivo Narrow', sans-serif;
+    color: #F3F1E9;
+}
+
+.submit:hover {
+    transform: scale(1.5);
+    transition: 1s;
+}
+
+
+/* ---------------------------------------- PRESENTATION DU SITE ----------------------------------------*/
+
+.bodyindex {
+    background-color: #3D4A4D;
+    margin: 0;
+    padding: 0;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+.sectionpres {
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 150%;
+    text-align: center;
+    color: #F3F1E9;
+}
+
+.titrepres {
+    font-size: 200%;
+    font-variant: small-caps;
+}
+
+
+/* ---------------------------------------- INSCRIPTION ----------------------------------------*/
+
+.bodyinscri {
+    background-color: #3D4A4D;
+    margin: 0;
+    padding: 0;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+
+/* ---------------------------------------- CONNEXION ----------------------------------------*/
+
+.bodyconnexion {
+    background-color: #3D4A4D;
+    margin: 0;
+    padding: 0;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+
+/* ---------------------------------------- COMMENTAIRE ----------------------------------------*/
+
+.sectioncomm {
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 150%;
+    text-align: center;
+    color: #F3F1E9;
+}
+
+.divcomm {
+    border: solid;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.borderinterne {
+    border-bottom: solid;
+    padding-bottom: 20px;
+    font-variant: small-caps;
+}
